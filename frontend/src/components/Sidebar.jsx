@@ -23,8 +23,8 @@ const Sidebar = () => {
   return (
     <div className="sidebar">
       <div style={{ fontSize: '1.4rem', fontWeight: 800, marginBottom: '2.5rem', display: 'flex', alignItems: 'center', gap: '0.75rem' }}>
-        <div style={{ background: 'var(--secondary)', color: 'white', padding: '0.45rem 0.6rem', borderRadius: '0.6rem', fontSize: '1rem', letterSpacing: '0.05em' }}>FW</div>
-        <span style={{ letterSpacing: '0.08em' }}>FRIENDS WORKSPACE</span>
+        <div style={{ background: 'var(--secondary)', color: 'white', padding: '0.45rem 0.6rem', borderRadius: '0.6rem', fontSize: '1rem', letterSpacing: '0.05em' }}>SC</div>
+        <span style={{ letterSpacing: '0.08em' }}>SAAD CAUFY COWORKING</span>
       </div>
       
       <div style={{ flex: 1 }}>
