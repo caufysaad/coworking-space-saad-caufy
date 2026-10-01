@@ -57,7 +57,7 @@ const Signup = () => {
             <UserPlus size={28} />
           </div>
           <h1 style={{ marginBottom: '0.5rem', color: 'var(--primary)' }}>Create Account</h1>
-          <p style={{ color: 'var(--text-muted)' }}>Create your Friends Workspace account</p>
+          <p style={{ color: 'var(--text-muted)' }}>Create your SAAD CAUFY Coworking account</p>
         </div>
 
         {error && (
