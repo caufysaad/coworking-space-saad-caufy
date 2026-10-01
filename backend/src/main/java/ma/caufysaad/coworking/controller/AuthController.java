@@ -91,7 +91,7 @@ public class AuthController {
                 .email(signUpRequest.getEmail())
                 .password(encoder.encode(signUpRequest.getPassword()))
                 .phoneNumber(signUpRequest.getPhoneNumber())
-                .role(signUpRequest.getRole() != null ? signUpRequest.getRole() : Role.MEMBER)
+                .role(Role.MEMBER)
                 .build();
 
         userRepository.save(user);
